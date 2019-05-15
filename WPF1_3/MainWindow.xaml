@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF1_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF1_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtCarnumber" HorizontalAlignment="Left" Height="23" Margin="156,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="86,89,0,0" TextWrapping="Wrap" Text="Bílnúmer:" VerticalAlignment="Top" Height="22" Width="50"/>
+        <Button x:Name="btnSearch" Content="Leita" HorizontalAlignment="Left" Margin="292,91,0,0" VerticalAlignment="Top" Width="75" Click="btnSearch_Click" IsDefault="True"/>
+        <TextBox x:Name="txtType" HorizontalAlignment="Left" Height="23" Margin="156,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="211"/>
+        <TextBox x:Name="txtColor" HorizontalAlignment="Left" Height="23" Margin="156,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="211"/>
+        <TextBlock HorizontalAlignment="Left" Margin="86,138,0,0" TextWrapping="Wrap" Text="Týpa:" VerticalAlignment="Top" Height="22" Width="50"/>
+        <TextBlock HorizontalAlignment="Left" Margin="86,160,0,0" TextWrapping="Wrap" Text="Litur:" VerticalAlignment="Top" Height="22" Width="50"/>
+
+    </Grid>
+</Window>
